@@ -6,16 +6,16 @@ public class personal {
 	int id;
 	String estadoCivil;
 	String seccion;
-	int añodeIngreso;
+	int aÃ±odeIngreso;
 	
-	public personal(String nombre, String apellidos, int id, String estadoCivil, String seccion, int añodeIngreso) {
+	public personal(String nombre, String apellidos, int id, String estadoCivil, String seccion, int aÃ±odeIngreso) {
 		
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 		this.id = id;
 		this.estadoCivil = estadoCivil;
 		this.seccion = seccion;
-		this.añodeIngreso = añodeIngreso;
+		this.aÃ±odeIngreso = aÃ±odeIngreso;
 		
 	}
 
@@ -23,16 +23,16 @@ public class personal {
 	@Override
 	public String toString() {
 		return "personal [nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", estadoCivil=" + estadoCivil
-				+ ", seccion=" + seccion + ", añodeIngreso=" + añodeIngreso + "]";
+				+ ", seccion=" + seccion + ", aï¿½odeIngreso=" + aÃ±odeIngreso + "]";
 	}
 
 
-	public int getAñodeIngreso() {
-		return añodeIngreso;
+	public int getAÃ±odeIngreso() {
+		return aÃ±odeIngreso;
 	}
 
-	public void setAñodeIngreso(int añodeIngreso) {
-		this.añodeIngreso = añodeIngreso;
+	public void setAÃ±odeIngreso(int aÃ±odeIngreso) {
+		this.aÃ±odeIngreso = aÃ±odeIngreso;
 	}
 
 	public String getNombre() {

@@ -6,16 +6,16 @@ public class profesor {
 	int id;
 	String estadoCivil;
 	String departamento;
-	int añodeIngreso;
+	int aÃ±odeIngreso;
 	
-	public profesor(String nombre, String apellidos, int id, String estadoCivil, String departamento, int añodeIngreso) {
+	public profesor(String nombre, String apellidos, int id, String estadoCivil, String departamento, int aÃ±odeIngreso) {
 		
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 		this.id = id;
 		this.estadoCivil = estadoCivil;
 		this.departamento = departamento;
-		this.añodeIngreso = añodeIngreso;
+		this.aÃ±odeIngreso = aÃ±odeIngreso;
 		
 	}
 
@@ -24,17 +24,17 @@ public class profesor {
 	@Override
 	public String toString() {
 		return "profesor [nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", estadoCivil=" + estadoCivil
-				+ ", departamento=" + departamento + ", añodeIngreso=" + añodeIngreso + "]";
+				+ ", departamento=" + departamento + ", aï¿½odeIngreso=" + aÃ±odeIngreso + "]";
 	}
 
 
 
-	public int getAñodeIngreso() {
-		return añodeIngreso;
+	public int getAÃ±odeIngreso() {
+		return aÃ±odeIngreso;
 	}
 
-	public void setAñodeIngreso(int añodeIngreso) {
-		this.añodeIngreso = añodeIngreso;
+	public void setAÃ±odeIngreso(int aÃ±odeIngreso) {
+		this.aÃ±odeIngreso = aÃ±odeIngreso;
 	}
 
 	public String getNombre() {
